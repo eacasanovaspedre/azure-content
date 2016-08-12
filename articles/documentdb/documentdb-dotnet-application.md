@@ -166,7 +166,7 @@ Let's begin by creating the **M** in MVC, the model.
 
 	All data in DocumentDB is passed over the wire and stored as JSON. To control the way your objects are serialized/deserialized by JSON.NET you can use the **JsonProperty** attribute as demonstrated in the **Item** class we just created. You don't **have** to do this but I want to ensure that my properties follow the JSON camelCase naming conventions. 
 	
-	Not only can you control the format of the property name when it goes into JSON, but you can entirely rename your .NET properties like I did with the **Description** property. 
+	Not only can you control the format of the property name when it goes into JSON, but you can entirely rename your .NET properties like I did with the **Completed** property. 
 	
 
 ### <a name="_Toc395637765"></a>Add a controller
